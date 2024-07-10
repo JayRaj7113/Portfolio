@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Style.css">
+  <script src="https://kit.fontawesome.com/5c614c2382.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Untitled design (13).png" class="logo">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu"></i>
+      </nav>
+      <div class="header-text">
+        <p>IT Engineer</p>
+        <h1>Hi, I'm <br><span>JayRaj A Gawade</span></h1>
+      </div>
+    </div>
+  </div>
+<!-- ------------------about--------------------------- -->
+  <div id="about">
+    <div class="conatainer">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/jaypic.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About ME</h1>
+          <p>Hi! My name is Jayraj A Gawade I am 20 years old. As a second-year IT engineering student, I am passionate about the ever-evolving world of technology and its potential to transform industries and lives. With a solid foundation in programming, networking, and systems analysis from my first-year coursework, I am now eager to delve deeper into advanced subjects such as cybersecurity, data structures, and software development. My curiosity drives me to stay updated with the latest technological trends, and I actively participate in coding competitions and tech seminars. I am committed to honing my skills and knowledge to contribute effectively to innovative IT solutions and advancements.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <!-- -------Skills--------- -->
+              <li><span>HTML5</span><br>I have thoroughly mastered HTML5, the cornerstone of modern web development, ensuring that I can create robust, responsive, and visually appealing websites with precision and expertise. 
+              </li>
+              <li><span>CSS</span><br>I have thoroughly mastered CSS, the essential styling language for modern web development, enabling me to design visually stunning, responsive, and user-friendly websites with precision and expertise.</li>
+              <li><span>MongoDB</span><br>I am in the process of mastering MongoDB, the leading NoSQL database, and have reached a level where I can effectively use it for managing and analyzing large volumes of unstructured data.</li>
+              <li><span>React</span><br>I am in the process of mastering React, the popular JavaScript library for building user interfaces, and have reached a level where I can effectively use it to create dynamic and responsive web applications.</li>
+              <li><span>Node.js</span><br>I am currently mastering Node.js, the powerful JavaScript runtime for server-side development, and have achieved a proficiency that allows me to build scalable and efficient web applications.</li>
+              <li><span>Figma(UI/UX)</span><br>I have developed a strong proficiency in Figma, the popular design tool, enabling me to create professional and intuitive user interface designs.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <!-- -------experience--------- -->
+              <li><span>Freelancer</span><br>As a dedicated freelance web developer, I've successfully created and deployed numerous websites for startups, boosting their customer engagement by nearly 27%. My innovative solutions and commitment to excellence have consistently driven impressive results for my clients.<br>
+              Will display details and links of the websites soon.....</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <!-- -------Education--------- -->
+               <li><span>Dr.Babasaheb Ambedkar Technological University, Lonere</span><br>I am currently a second-year IT undergraduate engineering student at Dr. Babasaheb Ambedkar Technological University (DBATU) in Lonere. My studies are focused on developing technical expertise and practical skills in the field of Information Technology.</li>
+               <li><span>Don Bosco Senior Secondary School,Nerul</span><br>I proudly completed my 10th from Don Bosco Senior Secondary School Nerul and achieved 69.2% in my 12th CBSE boards, laying a solid foundation for my academic journey. This milestone reflects my dedication and resilience, setting the stage for future successes.</li>
+              <li><span>Don Bosco Senior Secondary School,Nerul</span><br>I graduated from Donbosco Senior Secondary School, Nerul, with a strong academic record, achieving an 82.2% in my 10th CBSE board examinations. This milestone reflects my dedication and consistent effort throughout the school year.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------services----------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-titles">My Services</h1>
+      <div class="service-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>We Development</h2>
+          <p class="para-service">Web development is essential for creating dynamic, user-friendly websites that drive business growth, enhance customer engagement, and establish a strong online presence.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>React</h2>
+          <p class="para-service">React is essential for building fast, responsive, and scalable web applications, enabling developers to create dynamic user interfaces with ease and efficiency.</p>
+          <!-- <a href="#">Learn More</a> -->
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>MongoDB</h2>
+          <p class="para-service">MongoDB is essential for modern web development, providing a flexible, scalable NoSQL database solution for managing complex data structures. Its document-based model simplifies data handling and querying, enhancing development efficiency. This versatility and performance make MongoDB a powerful tool for building robust, data-driven applications.</p>
+          <!-- <a href="#">Learn More</a> -->
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- -------------------portfolio------------------------ -->
+   <div id="portfolio">
+    <div id="container">
+      <h1 class="sub-title">My WORK</h1>
+      <div id="work-list">
+        <div id="work">
+          <img src="images/Coming-soon.jpg">
+          <div class="layer">
+            <h3>Stay Tuned</h3>
+            <!-- <p>Design and Development</p> -->
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div id="work">
+          <img src="images/Coming-soon.jpg">
+          <div class="layer">
+            <h3>Stay Tuned </h3>
+            <!-- <p>Design and Development</p> -->
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div id="work">
+          <img src="images/Coming-soon.jpg">
+          <div class="layer">
+            <h3>Stay Tuned</h3>
+            <!-- <p>Design and Development</p> -->
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+ <!-- -------------------contact------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i> jayrajgawade07@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> 8692999797</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jayraj-gawade-52967a293/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://x.com/GawadeJayraj"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/_.jerry._07._/"><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkdin"></i></a>
+        </div>
+        <a href="ReSume.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="27668e40-95d2-471a-9b5f-ba3077175a20">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="eMail" placeholder="Your eMail" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <!-- <span id="msg">hello</span> -->
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <!-- ------------------------Phone menu--------------------------------- -->
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <!-- -------------------------end-------------------------- -->
+</body>
+</html>
